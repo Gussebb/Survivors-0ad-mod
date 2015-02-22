@@ -1,0 +1,13 @@
+{	
+	"genericName": "Mining pick",
+	"description": "Create a mining pick for harversting stone",
+	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 50},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "mining_stone.png",
+	"researchTime": 10,
+	"tooltip": "Workers +1 stone mining rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/stone.rock", "add": 1}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

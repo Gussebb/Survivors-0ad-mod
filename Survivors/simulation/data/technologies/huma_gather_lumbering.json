@@ -1,0 +1,13 @@
+{	
+	"genericName": "Axe",
+	"description": "Create an axe for harversting wood",
+	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 50},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "wood_axe.png",
+	"researchTime": 10,
+	"tooltip": "Workers +1 lumbering rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/wood.tree", "add": 1}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

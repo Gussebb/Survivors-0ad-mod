@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_zombie_infantry_melee_spearman">
+  <Armour>
+    <Hack>16</Hack>
+    <Pierce>16</Pierce>
+    <Crush>8</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>10</Hack>
+      <Pierce>0</Pierce>
+    </Melee>
+    <Charge>
+      <Hack>12</Hack>
+      <Pierce>0</Pierce>
+    </Charge>
+  </Attack>
+  <Health>
+    <Max>4000</Max>
+  </Health>
+  <Cost>
+    <PopulationBonus>10</PopulationBonus>
+    <BuildTime>80</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Loot>
+    <metal>10</metal>
+  </Loot>
+  <Identity>
+    <Civ>brit</Civ>
+	<SelectionGroupName>units/brit_infantry_spearman_b</SelectionGroupName>
+    <SpecificName>Zombie A</SpecificName>
+    <GenericName>Running Zombie</GenericName>
+    <History></History>
+    <Icon>units/zombie1.dds</Icon>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/zomb_infantry_runner_x
+	  units/zomb_infantry_slow_x
+    </Entities>
+  </ProductionQueue>
+  <Promotion>
+    <Entity></Entity>
+  </Promotion>
+  <ResourceGatherer>
+    <BaseSpeed>4</BaseSpeed>
+  </ResourceGatherer>
+  <UnitMotion>
+    <WalkSpeed>12</WalkSpeed>
+    <Run>
+      <Speed>20</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zombies/infantry_runner_x.xml</Actor>
+  </VisualActor>
+</Entity>

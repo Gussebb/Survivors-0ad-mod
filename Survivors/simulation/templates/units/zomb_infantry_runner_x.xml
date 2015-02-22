@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_zomb_fauna_wild_aggressive">
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>2</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>10</Hack>
+      <Pierce>10</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>4.0</MaxRange>
+      <RepeatTime>400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Circle radius="2.0"/>
+    <Height>1.5</Height>
+  </Footprint>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Running Zombie</SpecificName>
+    <Icon>units/zombie1.dds</Icon>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Loot>
+    <xp>20</xp>
+    <metal>0</metal>
+  </Loot>
+  <Cost>
+    <Population>2</Population>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>50</food>
+    </Resources>
+  </Cost>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+  </ResourceDropsite>
+  <UnitAI>
+    <AlertReactiveLevel>99</AlertReactiveLevel>
+    <CanGuard>false</CanGuard>
+    <RoamDistance>24.0</RoamDistance>
+    <FleeDistance>24.0</FleeDistance>
+    <RoamTimeMin>67000</RoamTimeMin>
+    <RoamTimeMax>242000</RoamTimeMax>
+    <FeedTimeMin>5000</FeedTimeMin>
+    <FeedTimeMax>4000</FeedTimeMax>
+  </UnitAI>
+  <Guard disable=""/>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <Visibility>
+    <RetainInFog>false</RetainInFog>
+  </Visibility>
+  <UnitMotion>
+    <WalkSpeed>16</WalkSpeed>
+    <Run>
+      <Speed>20.0</Speed>
+    </Run>
+  </UnitMotion>
+  <Health>
+    <DeathType>corpse</DeathType>
+    <Max>100</Max>
+    <RegenRate>1</RegenRate>
+    <Unhealable>false</Unhealable>
+    <Repairable>false</Repairable>
+  </Health>
+  <VisualActor>
+    <Actor>units/zombies/infantry_runner_x.xml</Actor>
+  </VisualActor>
+</Entity>

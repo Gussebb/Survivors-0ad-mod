@@ -1,0 +1,13 @@
+{	
+	"genericName": "Wicker Baskets",
+	"description": "Make a basket for collecting fruits",
+	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "gather_basket.png",
+	"researchTime": 10,
+	"tooltip": "Workers +1 fruit gathering rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.fruit", "add": 1}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

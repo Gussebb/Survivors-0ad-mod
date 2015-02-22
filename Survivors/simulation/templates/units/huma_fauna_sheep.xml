@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>20</food>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Sheep</SpecificName>
+	<Classes datatype="tokens">Domestic</Classes>
+    <Icon>gaia/fauna_sheep.png</Icon>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/sheep.xml</select>
+      <order_walk>actor/fauna/animal/sheep.xml</order_walk>
+      <death>actor/fauna/animal/sheep.xml</death>
+      <trained>actor/fauna/animal/sheep.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>5.0</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>3.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>fauna/sheep1.xml</Actor>
+  </VisualActor>
+  <Health>
+    <DeathType>corpse</DeathType>
+    <Max>10</Max>
+    <RegenRate>-2</RegenRate>
+    <Unhealable>true</Unhealable>
+    <Repairable>false</Repairable>
+  </Health>
+  <Auras>
+    <heal>
+      <Type>range</Type>
+      <Radius>40</Radius>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <Health.RegenRate> <Add>3</Add> </Health.RegenRate>
+      </Modifications>
+      <AuraName>Healing Aura</AuraName>
+      <AuraDescription>Heals nearby units at 1 HP per second.</AuraDescription>
+    </heal>
+  </Auras>
+</Entity>

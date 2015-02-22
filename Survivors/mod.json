@@ -1,0 +1,9 @@
+{
+	"name": "Survivors",
+	"version": "0.0.18",
+	"label": "0 A.D. Iron Age Extension.",
+	"url": "",
+	"description": "Adds Survivors",
+	"dependencies": ["0ad"],
+	"type": "content.civilization"
+}
