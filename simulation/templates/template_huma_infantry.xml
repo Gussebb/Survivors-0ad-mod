@@ -117,4 +117,10 @@
   <Vision>
     <Range>80</Range>
   </Vision>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/huma_fauna_sheep
+    </Entities>
+  </ProductionQueue>
 </Entity>
