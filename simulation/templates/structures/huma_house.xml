@@ -21,4 +21,16 @@
   </BuildRestrictions>
   <TerritoryInfluence disable=""/>
   <TerritoryDecay disable=""/>
+  <Auras>
+    <Aura1>
+    <Type>range</Type>
+      <Radius>40</Radius>
+      <Affects>Infantry</Affects>
+      <Modifications>
+        <UnitMotion.WalkSpeed> <Multiply>1.15</Multiply> </UnitMotion.WalkSpeed>
+      </Modifications>
+      <AuraName>Good nights sleep</AuraName>
+      <AuraDescription>Gives you a good nights sleep and makes you run 15% faster.</AuraDescription>
+    </Aura1>
+  </Auras>
 </Entity>

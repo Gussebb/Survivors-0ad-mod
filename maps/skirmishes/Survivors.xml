@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="373.827" y="123.589" z="268.13"/>
-		<Rotation angle="0"/>
+		<Position x="737.848" y="123.923" z="336.357"/>
+		<Rotation angle="-0.247745"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -3196,28 +3196,28 @@
 		<Entity uid="486">
 			<Template>units/huma_infantry_archer_a</Template>
 			<Player>2</Player>
-			<Position x="375.7858" z="143.68949"/>
+			<Position x="460.71952" z="473.90696"/>
 			<Orientation y="1.26896"/>
 			<Actor seed="59654"/>
 		</Entity>
 		<Entity uid="487">
 			<Template>units/huma_infantry_archer_a</Template>
 			<Player>3</Player>
-			<Position x="369.91135" z="156.37317"/>
+			<Position x="454.84507" z="486.59058"/>
 			<Orientation y="1.45368"/>
 			<Actor seed="59654"/>
 		</Entity>
 		<Entity uid="488">
 			<Template>units/huma_infantry_archer_a</Template>
 			<Player>4</Player>
-			<Position x="388.10975" z="158.07435"/>
+			<Position x="473.04346" z="488.29172"/>
 			<Orientation y="-1.49766"/>
 			<Actor seed="59654"/>
 		</Entity>
 		<Entity uid="489">
 			<Template>units/huma_infantry_archer_a</Template>
 			<Player>5</Player>
-			<Position x="365.3961" z="166.58347"/>
+			<Position x="450.32981" z="496.80094"/>
 			<Orientation y="0.08599"/>
 			<Actor seed="59654"/>
 		</Entity>
@@ -3688,7 +3688,6 @@
 			<Player>0</Player>
 			<Position x="363.58399" z="413.78495"/>
 			<Orientation y="2.35621"/>
-			<Actor seed="9664"/>
 		</Entity>
 		<Entity uid="637">
 			<Template>gaia/flora_tree_aleppo_pine</Template>
@@ -4420,129 +4419,10 @@
 			<Orientation y="1.9139"/>
 			<Actor seed="4308"/>
 		</Entity>
-		<Entity uid="797">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="446.57607" z="832.36883"/>
-			<Orientation y="-2.06325"/>
-			<Actor seed="44536"/>
-		</Entity>
-		<Entity uid="798">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="417.66755" z="809.653"/>
-			<Orientation y="1.99834"/>
-			<Actor seed="60188"/>
-		</Entity>
-		<Entity uid="799">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="360.231" z="450.43245"/>
-			<Orientation y="-1.61223"/>
-			<Actor seed="45590"/>
-		</Entity>
-		<Entity uid="800">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="362.64937" z="945.28762"/>
-			<Orientation y="-2.57551"/>
-			<Actor seed="58590"/>
-		</Entity>
-		<Entity uid="801">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="519.5741" z="803.82018"/>
-			<Orientation y="-1.07056"/>
-			<Actor seed="11458"/>
-		</Entity>
-		<Entity uid="803">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="524.62572" z="634.63486"/>
-			<Orientation y="0.69217"/>
-			<Actor seed="45230"/>
-		</Entity>
-		<Entity uid="804">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="671.85792" z="937.79967"/>
-			<Orientation y="-0.3231"/>
-			<Actor seed="6322"/>
-		</Entity>
-		<Entity uid="805">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="485.95025" z="723.88361"/>
-			<Orientation y="-1.65346"/>
-			<Actor seed="494"/>
-		</Entity>
-		<Entity uid="806">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="743.10209" z="761.75028"/>
-			<Orientation y="0.69718"/>
-			<Actor seed="40130"/>
-		</Entity>
-		<Entity uid="807">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="842.98461" z="824.80564"/>
-			<Orientation y="-3.12726"/>
-			<Actor seed="31496"/>
-		</Entity>
-		<Entity uid="808">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="929.84958" z="778.95159"/>
-			<Orientation y="1.57303"/>
-			<Actor seed="15558"/>
-		</Entity>
-		<Entity uid="809">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="956.44507" z="353.1707"/>
-			<Orientation y="2.95963"/>
-			<Actor seed="10038"/>
-		</Entity>
-		<Entity uid="810">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="700.97767" z="522.55456"/>
-			<Orientation y="-0.84377"/>
-			<Actor seed="35016"/>
-		</Entity>
-		<Entity uid="811">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="577.50849" z="553.36277"/>
-			<Orientation y="2.7163"/>
-			<Actor seed="29138"/>
-		</Entity>
-		<Entity uid="812">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="1001.83399" z="418.81862"/>
-			<Orientation y="2.53388"/>
-			<Actor seed="48216"/>
-		</Entity>
-		<Entity uid="813">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="913.82468" z="252.61976"/>
-			<Orientation y="-1.32784"/>
-			<Actor seed="48952"/>
-		</Entity>
-		<Entity uid="814">
-			<Template>units/zomb_infantry_runner_x</Template>
-			<Player>0</Player>
-			<Position x="865.74029" z="412.10752"/>
-			<Orientation y="-1.3814"/>
-			<Actor seed="46374"/>
-		</Entity>
 		<Entity uid="863">
 			<Template>units/zomb_infantry_fast_a</Template>
 			<Player>1</Player>
-			<Position x="682.33667" z="585.50232"/>
+			<Position x="923.46534" z="747.97535"/>
 			<Orientation y="-2.93625"/>
 			<Actor seed="60648"/>
 		</Entity>
@@ -4594,6 +4474,41 @@
 			<Position x="330.49646" z="157.80912"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22954"/>
+		</Entity>
+		<Entity uid="871">
+			<Template>gaia/flora_tree_baobab</Template>
+			<Player>0</Player>
+			<Position x="332.92716" z="513.67273"/>
+			<Orientation y="-1.94112"/>
+			<Actor seed="21302"/>
+		</Entity>
+		<Entity uid="872">
+			<Template>gaia/flora_tree_aleppo_pine</Template>
+			<Player>0</Player>
+			<Position x="330.92548" z="527.19282"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41758"/>
+		</Entity>
+		<Entity uid="873">
+			<Template>gaia/flora_tree_aleppo_pine</Template>
+			<Player>0</Player>
+			<Position x="320.4976" z="511.89228"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43888"/>
+		</Entity>
+		<Entity uid="874">
+			<Template>gaia/flora_tree_aleppo_pine</Template>
+			<Player>0</Player>
+			<Position x="321.76743" z="494.99045"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29440"/>
+		</Entity>
+		<Entity uid="875">
+			<Template>gaia/geology_stone_alpine_a</Template>
+			<Player>0</Player>
+			<Position x="795.58979" z="457.35084"/>
+			<Orientation y="-2.13628"/>
+			<Actor seed="2482"/>
 		</Entity>
 	</Entities>
 	<Paths/>

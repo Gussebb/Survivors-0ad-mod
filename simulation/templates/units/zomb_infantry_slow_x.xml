@@ -70,7 +70,7 @@
   </UnitMotion>
   <Health>
     <DeathType>corpse</DeathType>
-    <Max>20</Max>
+    <Max>60</Max>
     <RegenRate>1</RegenRate>
     <Unhealable>false</Unhealable>
     <Repairable>false</Repairable>

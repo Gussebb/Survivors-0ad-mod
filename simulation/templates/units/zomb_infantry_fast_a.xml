@@ -17,6 +17,7 @@
   </Attack>
   <Health>
     <Max>4000</Max>
+    <RegenRate>0.5</RegenRate>
   </Health>
   <Cost>
     <PopulationBonus>10</PopulationBonus>

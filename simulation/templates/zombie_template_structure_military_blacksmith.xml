@@ -51,6 +51,7 @@
       huma_gather_lumbering
 	  huma_gather_mining
 	  huma_gather_fruit
+	  huma_bow
     </Technologies>
   </ProductionQueue>
   <Sound>

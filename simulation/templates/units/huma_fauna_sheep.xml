@@ -1,54 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_herd_domestic">
   <Cost>
-    <BuildTime>5</BuildTime>
+    <BuildTime>2</BuildTime>
     <Resources>
-      <food>20</food>
+      <food>50</food>
     </Resources>
   </Cost>
   <Identity>
     <Civ>gaia</Civ>
-    <SpecificName>Sheep</SpecificName>
+    <SpecificName>Meal</SpecificName>
 	<Classes datatype="tokens">Domestic</Classes>
     <Icon>gaia/fauna_sheep.png</Icon>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
-  <Sound>
-    <SoundGroups>
-      <select>actor/fauna/animal/sheep.xml</select>
-      <order_walk>actor/fauna/animal/sheep.xml</order_walk>
-      <death>actor/fauna/animal/sheep.xml</death>
-      <trained>actor/fauna/animal/sheep.xml</trained>
-    </SoundGroups>
-  </Sound>
   <StatusBars>
     <HeightOffset>5.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>3.0</WalkSpeed>
+    <WalkSpeed>1</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>fauna/sheep1.xml</Actor>
+    <Actor>props/special/eyecandy/barrel_a</Actor>
   </VisualActor>
   <Health>
-    <DeathType>corpse</DeathType>
-    <Max>10</Max>
-    <RegenRate>-1.5</RegenRate>
+    <DeathType>vanish</DeathType>
+    <Max>6</Max>
+    <RegenRate>-1</RegenRate>
     <Unhealable>true</Unhealable>
     <Repairable>false</Repairable>
   </Health>
   <Auras>
     <heal>
       <Type>range</Type>
-      <Radius>40</Radius>
-      <Affects>Unit</Affects>
+      <Radius>6</Radius>
+      <Affects>Infantry</Affects>
       <Modifications>
-        <Health.RegenRate> <Add>4</Add> </Health.RegenRate>
+        <Health.RegenRate> <Add>20</Add> </Health.RegenRate>
+		<UnitMotion.WalkSpeed> <Multiply>0.4</Multiply> </UnitMotion.WalkSpeed>
       </Modifications>
       <AuraName>Healing Aura</AuraName>
-      <AuraDescription>Heals nearby units at 4 HP per second.</AuraDescription>
+      <AuraDescription>Heals nearby units at 20 HP per second, for 6 secounds.</AuraDescription>
     </heal>
   </Auras>
 </Entity>

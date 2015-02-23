@@ -8,6 +8,7 @@
   <Attack>
     <Ranged>
       <Spread>1.3</Spread>
+      <Pierce>40</Pierce>
       <MaxRange>54.0</MaxRange>
     </Ranged>
   </Attack>
