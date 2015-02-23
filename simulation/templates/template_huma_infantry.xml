@@ -61,7 +61,7 @@
   <Promotion>
     <RequiredXp>100000000</RequiredXp>
   </Promotion>
-  <ResourceGatherer>
+  <ResourceHealthGatherer>
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
@@ -74,7 +74,7 @@
 	  <stone.ruins>2</stone.ruins>
       <metal.ore>0.5</metal.ore>
     </Rates>
-  </ResourceGatherer>
+  </ResourceHealthGatherer>
   <Selectable>
     <Overlay>
       <Texture>
