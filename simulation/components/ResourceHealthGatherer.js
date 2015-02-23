@@ -157,7 +157,7 @@ ResourceHealthGatherer.prototype.PerformGather = function(target)
 	// Find the maximum so we won't exceed our capacity
 	let status = cmpResourceSupply.TakeResources(gatherAmount);
 
-	let cmpHealth = QueryInterface(this.entity, IID_Health);
+	let cmpHealth = Engine.QueryInterface(this.entity, IID_Health);
 	if (cmpHealth)
 		cmpHealth.Increase(status.amount);
 
