@@ -4,9 +4,9 @@
     <Category>Barracks</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>200</BuildTime>
+    <BuildTime>160</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>60</wood>
     </Resources>
   </Cost>
   <Footprint>
